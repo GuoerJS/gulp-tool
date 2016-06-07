@@ -1,3 +1,5 @@
+"use strict";
+
 function dog() {
     this.type = "SaMoye";
     this.name = "HH";
@@ -10,8 +12,8 @@ function dog() {
         this.name = name;
     };
 }
-let a = 1;
-const b = 2;
+var a = 1;
+var b = 2;
 var myDog = new dog();
 myDog.setColor("white");
 console.log(myDog.getColor());
